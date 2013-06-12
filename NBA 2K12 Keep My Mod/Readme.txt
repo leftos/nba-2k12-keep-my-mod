@@ -1,6 +1,9 @@
 ﻿NBA 2K12 Keep My Mod
 	by Lefteris "Leftos" Aslanoglou
 
+	Additional credits:
+		- solovoy from the NLSC forums
+
 
 Starting with NBA 2K12, 2K implemented a way to update game art and text 
 (actually, any game file) silently, without the need for a patch. However, the 
@@ -37,8 +40,20 @@ Instructions
 		assistance from you. Just keep it running while you're playing the game.
 		Make sure you read the rest of the readme though, for more things you 
 		can do.
+		
+		Quick note though, to avoid having the game resync its updates when
+		you quit a game and return to the Main Menu (which takes about 10-15
+		minutes during which you don't have the Online Data updates, such as the
+		new shoes), remember this:
+		- When you're about to enter a game, Alt-Tab into the tool and click
+		   on Force Keep My Mods.
+		- When you're about to quit a game and return to the Main Menu, Alt-Tab
+		   into the tool, and click on Restore Online Data Backup.
+		If you remember to do these two things, you'll always have both your
+		mods and the rest of 2K's updates, without having to wait through the
+		lengthy update.
 
-		If you want to temporarily disable the tool and keep 2K's updates,
+		If you want to temporarily disable the tool and only keep 2K's updates,
 		for example to synchronize NBA Today or to go Online, click on Restore
 		Online Data Backup. After you do that, the tool won't watch for re-syncs
 		and won't force your mods, until you use the "Force Keep My Mods"
@@ -232,6 +247,12 @@ Instructions
 		mod's files are in the Keep My Mods column, you've done	it correctly.
 
 Version History
+	v0.3 - Mar 3
+		- The tool now edits the downloads.mnf file in the Online Data folder,
+		   so that the game's fooled into thinking your mods are part of 2K's
+		   update; that way you can keep both your mods and the rest of 2K's
+		   updates, something that wasn't previously possible
+		   
 	v0.2 - Jan 9
 		- Now Online Data Browser shows all files in modlists but not yet 
 		   updated

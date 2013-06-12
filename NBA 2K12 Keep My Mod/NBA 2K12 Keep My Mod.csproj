@@ -97,6 +97,7 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="LeftosCommonLibrary.cs" />
     <Compile Include="ODWindow.xaml.cs">
       <DependentUpon>ODWindow.xaml</DependentUpon>
     </Compile>
@@ -185,12 +186,11 @@
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <PropertyGroup>
-    <PostBuildEvent>"D:\Program Files\Inno Setup 5\ISCC.exe" "C:\Users\Leftos\Documents\Visual Studio 2010\Projects\NBA 2K12 Keep My Mod\InnoSetup\setup.iss"
-"D:\Program Files\WinRAR\rar.exe" a -ep "C:\Users\Leftos\Documents\Visual Studio 2010\Projects\NBA 2K12 Keep My Mod\[Leftos] NBA 2K12 Keep My Mod.rar" "C:\Users\Leftos\Documents\Visual Studio 2010\Projects\NBA 2K12 Keep My Mod\NBA 2K12 Keep My Mod\bin\Release\NBA 2K12 Keep My Mod.exe" "C:\Users\Leftos\Documents\Visual Studio 2010\Projects\NBA 2K12 Keep My Mod\NBA 2K12 Keep My Mod\bin\Release\NBA 2K12 Keep My Mod.pdb" "C:\Users\Leftos\Documents\Visual Studio 2010\Projects\NBA 2K12 Keep My Mod\NBA 2K12 Keep My Mod\bin\Release\Readme.txt"</PostBuildEvent>
+    <PostBuildEvent>"D:\Program Files\Inno Setup 5\ISCC.exe" "C:\Users\Leftos\Documents\Visual Studio 2010\Projects\NBA 2K12 Keep My Mod\InnoSetup\setup.iss"</PostBuildEvent>
   </PropertyGroup>
   <ProjectExtensions>
     <VisualStudio>
-      <UserProperties BuildVersion_DetectChanges="False" BuildVersion_ConfigurationName="Release" BuildVersion_AssemblyInfoFilename="Properties\AssemblyInfo.cs" BuildVersion_StartDate="2000/1/1" BuildVersion_UpdateAssemblyVersion="False" BuildVersion_BuildVersioningStyle="None.None.None.Increment" />
+      <UserProperties BuildVersion_BuildVersioningStyle="None.None.None.Increment" BuildVersion_UpdateAssemblyVersion="False" BuildVersion_StartDate="2000/1/1" BuildVersion_AssemblyInfoFilename="Properties\AssemblyInfo.cs" BuildVersion_ConfigurationName="Release" BuildVersion_DetectChanges="False" />
     </VisualStudio>
   </ProjectExtensions>
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
